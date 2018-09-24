@@ -5,7 +5,7 @@
 white='\033[1;37m'
 nc='033[0m'
 
-echo -e "${white}Do you want to install virtualbox guest additions?${nc}"
+echo -e "${white}Do you want to install virtualbox guest additions?${nc}\n"
 read -p "press any key to continue or press CTRL+c to cancel."
 
 sudo apt-get update
