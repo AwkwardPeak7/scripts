@@ -8,7 +8,7 @@ nc='\033[0m'
 echo -e "${white}This would install obmenu-generator.${nc}"
 read -p "press any key to continue..."
 
-sudo apt install build-essential cpanminus git -y
+sudo apt install build-essential cpanminus git libgtk2-perl -y
 mkdir -p /tmp/obmenu-generator
 git clone git://github.com/trizen/obmenu-generator /tmp/obmenu-generator/
 sudo cp /tmp/obmenu-generator/obmenu-generator /usr/bin/
