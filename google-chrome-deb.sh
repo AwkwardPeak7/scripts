@@ -12,5 +12,5 @@ if ! [ -x "$(command -v wget)" ]; then
 	sudo apt install wget -y
 fi
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb /tmp/google-chrome.deb
+wget -P /tmp/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -f -y /tmp/google-chrome.deb
